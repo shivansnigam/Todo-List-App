@@ -1,0 +1,54 @@
+body {
+    background-color: lightblue; 
+}
+
+.todo-container {
+    max-width: 400px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #007bff;
+    color: black;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h4 {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.delete-button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 3px 6px;
+    cursor: pointer;
+    border: none;
+}
+
+.uppercase-button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+}
